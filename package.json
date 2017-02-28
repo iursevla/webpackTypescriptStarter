@@ -1,0 +1,22 @@
+{
+  "name": "rui",
+  "version": "1.0.0",
+  "description": "Just a test",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "tsc && webpack-dev-server --content-base build",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Rui Alves",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
